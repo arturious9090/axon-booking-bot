@@ -1,0 +1,28 @@
+[project]
+name = "axon-booking-bot"
+version = "0.1.0"
+description = "Демонстрационный Telegram-бот записи на услуги Axon"
+requires-python = ">=3.13,<3.15"
+dependencies = [
+    "Django>=5.2,<5.3",
+    "aiogram>=3.22,<4",
+    "psycopg[binary]>=3.2,<4",
+    "celery[redis]>=5.5,<6",
+    "gunicorn>=23,<24",
+    "whitenoise>=6.9,<7",
+]
+
+[dependency-groups]
+dev = ["pytest>=8,<10", "pytest-django>=4.11,<5", "ruff>=0.12,<1"]
+
+[tool.pytest.ini_options]
+DJANGO_SETTINGS_MODULE = "config.settings"
+testpaths = ["tests"]
+addopts = "-q"
+
+[tool.ruff]
+target-version = "py313"
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]

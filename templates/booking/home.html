@@ -1,0 +1,55 @@
+{% load static %}
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Демо Axon: запись в студию через Telegram, расписание и напоминания.">
+  <title>{{ studio_name }} — запись в Telegram</title>
+  <link rel="stylesheet" href="{% static 'booking/site.css' %}">
+</head>
+<body>
+  <div class="shell">
+    <header><a class="brand" href="/">axon<span> / studio</span></a><span class="demo"><i></i> Демонстрационный проект</span></header>
+    <main>
+      <section class="hero">
+        <div class="intro">
+          <p class="eyebrow">МЕНЬШЕ ПЕРЕПИСКИ. БОЛЬШЕ ВРЕМЕНИ ДЛЯ СЕБЯ.</p>
+          <h1>Ваш следующий<br>визит — <em>в пару<br>касаний.</em></h1>
+          <p class="lead">Выберите услугу и удобное время в Telegram.<br>Мы напомним о визите, а планы можно изменить.</p>
+          {% if bot_username %}
+            <a class="button" href="https://t.me/{{ bot_username }}?start=demo" target="_blank" rel="noopener noreferrer">Записаться в Telegram <span>↗</span></a>
+          {% else %}
+            <p class="setup">Бот ещё не подключён. Каталог уже можно посмотреть ниже.</p>
+          {% endif %}
+          <p class="fine">Без звонков · Перенос и отмена в боте</p>
+        </div>
+        <aside class="preview" aria-label="Пример сценария записи">
+          <div class="preview-top"><span class="avatar">a</span><div><strong>{{ studio_name }}</strong><small>Демонстрация диалога</small></div><span class="dots">···</span></div>
+          <div class="chat">
+            <div class="bubble">Найдём время для вас?<br>Начните с выбора услуги.</div>
+            <div class="bubble outgoing">Стрижка и укладка</div>
+            <div class="bubble">Отличный выбор. Осталось выбрать специалиста, дату и время.</div>
+            <div class="example-slots"><span>09:00</span><span class="selected">10:30</span><span>14:00</span></div>
+            <div class="confirmation"><span>✓</span><div><strong>Всё под контролем</strong><small>Подтверждение и напоминание — в чате</small></div></div>
+          </div>
+          <p class="preview-caption">Пример интерфейса · не реальная запись</p>
+        </aside>
+      </section>
+      <section class="catalog" aria-labelledby="services-title">
+        <div class="section-heading"><div><p class="eyebrow">НАЙДИТЕ СВОЁ</p><h2 id="services-title">Услуги студии</h2></div><span>Часовой пояс: {{ studio_timezone }}</span></div>
+        <div class="cards">
+          {% for service in services %}
+          <article class="card"><span class="number">0{{ forloop.counter }}</span><h3>{{ service.name }}</h3><p>{{ service.description }}</p><div class="card-footer"><span>{{ service.duration_minutes }} мин</span><strong>{{ service.price|floatformat:2 }} €</strong></div></article>
+          {% empty %}<p class="empty">Каталог скоро появится. Администратор может добавить услуги в панели управления.</p>{% endfor %}
+        </div>
+      </section>
+      <section class="team" aria-labelledby="team-title"><div class="section-heading"><div><p class="eyebrow">В ХОРОШИХ РУКАХ</p><h2 id="team-title">Наши специалисты</h2></div></div><div class="team-grid">
+        {% for specialist in specialists %}<article><span class="initial">{{ specialist.name|first }}</span><div><h3>{{ specialist.name }}</h3><p>{{ specialist.description }}</p></div></article>{% empty %}<p>Скоро здесь появится команда.</p>{% endfor %}
+      </div></section>
+      <section class="note"><span>↗</span><p>Это демо для портфолио Axon. Студия, услуги и специалисты вымышлены. Настоящие услуги не оказываются, оплата не требуется.</p></section>
+    </main>
+    <footer><span>Axon · автоматизация, которая освобождает время</span><a href="{% url 'admin:index' %}">Панель администратора ↗</a></footer>
+  </div>
+</body>
+</html>
