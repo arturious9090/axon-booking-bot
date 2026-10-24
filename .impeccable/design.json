@@ -1,0 +1,628 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-16T14:45:31.781009+00:00",
+  "title": "Design System: Axon",
+  "extensions": {
+    "colorMeta": {
+      "admin-primary": {
+        "role": "primary",
+        "displayName": "Admin Primary",
+        "tonalRamp": [
+          "oklch(15% 0.05291 149.04)",
+          "oklch(26% 0.05291 149.04)",
+          "oklch(38% 0.05291 149.04)",
+          "oklch(49% 0.05291 149.04)",
+          "oklch(61% 0.05291 149.04)",
+          "oklch(72% 0.05291 149.04)",
+          "oklch(84% 0.05291 149.04)",
+          "oklch(95% 0.05291 149.04)"
+        ]
+      },
+      "admin-primary-hover": {
+        "role": "primary",
+        "displayName": "Admin Primary Hover",
+        "tonalRamp": [
+          "oklch(15% 0.04839 149.48)",
+          "oklch(26% 0.04839 149.48)",
+          "oklch(38% 0.04839 149.48)",
+          "oklch(49% 0.04839 149.48)",
+          "oklch(61% 0.04839 149.48)",
+          "oklch(72% 0.04839 149.48)",
+          "oklch(84% 0.04839 149.48)",
+          "oklch(95% 0.04839 149.48)"
+        ]
+      },
+      "admin-link-hover": {
+        "role": "neutral",
+        "displayName": "Admin Link Hover",
+        "tonalRamp": [
+          "oklch(15% 0.04885 149.31)",
+          "oklch(26% 0.04885 149.31)",
+          "oklch(38% 0.04885 149.31)",
+          "oklch(49% 0.04885 149.31)",
+          "oklch(61% 0.04885 149.31)",
+          "oklch(72% 0.04885 149.31)",
+          "oklch(84% 0.04885 149.31)",
+          "oklch(95% 0.04885 149.31)"
+        ]
+      },
+      "admin-paper": {
+        "role": "neutral",
+        "displayName": "Admin Paper",
+        "tonalRamp": [
+          "oklch(15% 0.00538 117.92)",
+          "oklch(26% 0.00538 117.92)",
+          "oklch(38% 0.00538 117.92)",
+          "oklch(49% 0.00538 117.92)",
+          "oklch(61% 0.00538 117.92)",
+          "oklch(72% 0.00538 117.92)",
+          "oklch(84% 0.00538 117.92)",
+          "oklch(95% 0.00538 117.92)"
+        ]
+      },
+      "admin-surface": {
+        "role": "neutral",
+        "displayName": "Admin Surface",
+        "tonalRamp": [
+          "oklch(15% 0.00000 89.88)",
+          "oklch(26% 0.00000 89.88)",
+          "oklch(38% 0.00000 89.88)",
+          "oklch(49% 0.00000 89.88)",
+          "oklch(61% 0.00000 89.88)",
+          "oklch(72% 0.00000 89.88)",
+          "oklch(84% 0.00000 89.88)",
+          "oklch(95% 0.00000 89.88)"
+        ]
+      },
+      "admin-ink": {
+        "role": "neutral",
+        "displayName": "Admin Ink",
+        "tonalRamp": [
+          "oklch(15% 0.02377 154.58)",
+          "oklch(26% 0.02377 154.58)",
+          "oklch(38% 0.02377 154.58)",
+          "oklch(49% 0.02377 154.58)",
+          "oklch(61% 0.02377 154.58)",
+          "oklch(72% 0.02377 154.58)",
+          "oklch(84% 0.02377 154.58)",
+          "oklch(95% 0.02377 154.58)"
+        ]
+      },
+      "admin-secondary-text": {
+        "role": "neutral",
+        "displayName": "Admin Secondary Text",
+        "tonalRamp": [
+          "oklch(15% 0.02436 156.18)",
+          "oklch(26% 0.02436 156.18)",
+          "oklch(38% 0.02436 156.18)",
+          "oklch(49% 0.02436 156.18)",
+          "oklch(61% 0.02436 156.18)",
+          "oklch(72% 0.02436 156.18)",
+          "oklch(84% 0.02436 156.18)",
+          "oklch(95% 0.02436 156.18)"
+        ]
+      },
+      "admin-muted": {
+        "role": "neutral",
+        "displayName": "Admin Muted",
+        "tonalRamp": [
+          "oklch(15% 0.02540 145.21)",
+          "oklch(26% 0.02540 145.21)",
+          "oklch(38% 0.02540 145.21)",
+          "oklch(49% 0.02540 145.21)",
+          "oklch(61% 0.02540 145.21)",
+          "oklch(72% 0.02540 145.21)",
+          "oklch(84% 0.02540 145.21)",
+          "oklch(95% 0.02540 145.21)"
+        ]
+      },
+      "admin-line": {
+        "role": "neutral",
+        "displayName": "Admin Line",
+        "tonalRamp": [
+          "oklch(15% 0.01659 133.83)",
+          "oklch(26% 0.01659 133.83)",
+          "oklch(38% 0.01659 133.83)",
+          "oklch(49% 0.01659 133.83)",
+          "oklch(61% 0.01659 133.83)",
+          "oklch(72% 0.01659 133.83)",
+          "oklch(84% 0.01659 133.83)",
+          "oklch(95% 0.01659 133.83)"
+        ]
+      },
+      "admin-hairline": {
+        "role": "neutral",
+        "displayName": "Admin Hairline",
+        "tonalRamp": [
+          "oklch(15% 0.01149 128.60)",
+          "oklch(26% 0.01149 128.60)",
+          "oklch(38% 0.01149 128.60)",
+          "oklch(49% 0.01149 128.60)",
+          "oklch(61% 0.01149 128.60)",
+          "oklch(72% 0.01149 128.60)",
+          "oklch(84% 0.01149 128.60)",
+          "oklch(95% 0.01149 128.60)"
+        ]
+      },
+      "admin-input-line": {
+        "role": "neutral",
+        "displayName": "Admin Input Line",
+        "tonalRamp": [
+          "oklch(15% 0.02427 133.48)",
+          "oklch(26% 0.02427 133.48)",
+          "oklch(38% 0.02427 133.48)",
+          "oklch(49% 0.02427 133.48)",
+          "oklch(61% 0.02427 133.48)",
+          "oklch(72% 0.02427 133.48)",
+          "oklch(84% 0.02427 133.48)",
+          "oklch(95% 0.02427 133.48)"
+        ]
+      },
+      "admin-accent-soft": {
+        "role": "primary",
+        "displayName": "Admin Accent Soft",
+        "tonalRamp": [
+          "oklch(15% 0.02248 126.23)",
+          "oklch(26% 0.02248 126.23)",
+          "oklch(38% 0.02248 126.23)",
+          "oklch(49% 0.02248 126.23)",
+          "oklch(61% 0.02248 126.23)",
+          "oklch(72% 0.02248 126.23)",
+          "oklch(84% 0.02248 126.23)",
+          "oklch(95% 0.02248 126.23)"
+        ]
+      },
+      "admin-selected": {
+        "role": "primary",
+        "displayName": "Admin Selected",
+        "tonalRamp": [
+          "oklch(15% 0.01426 128.63)",
+          "oklch(26% 0.01426 128.63)",
+          "oklch(38% 0.01426 128.63)",
+          "oklch(49% 0.01426 128.63)",
+          "oklch(61% 0.01426 128.63)",
+          "oklch(72% 0.01426 128.63)",
+          "oklch(84% 0.01426 128.63)",
+          "oklch(95% 0.01426 128.63)"
+        ]
+      },
+      "admin-nav-selected": {
+        "role": "primary",
+        "displayName": "Admin Nav Selected",
+        "tonalRamp": [
+          "oklch(15% 0.02871 128.81)",
+          "oklch(26% 0.02871 128.81)",
+          "oklch(38% 0.02871 128.81)",
+          "oklch(49% 0.02871 128.81)",
+          "oklch(61% 0.02871 128.81)",
+          "oklch(72% 0.02871 128.81)",
+          "oklch(84% 0.02871 128.81)",
+          "oklch(95% 0.02871 128.81)"
+        ]
+      },
+      "admin-nav-selected-ink": {
+        "role": "primary",
+        "displayName": "Admin Nav Selected Ink",
+        "tonalRamp": [
+          "oklch(15% 0.05624 146.82)",
+          "oklch(26% 0.05624 146.82)",
+          "oklch(38% 0.05624 146.82)",
+          "oklch(49% 0.05624 146.82)",
+          "oklch(61% 0.05624 146.82)",
+          "oklch(72% 0.05624 146.82)",
+          "oklch(84% 0.05624 146.82)",
+          "oklch(95% 0.05624 146.82)"
+        ]
+      },
+      "admin-sidebar": {
+        "role": "neutral",
+        "displayName": "Admin Sidebar",
+        "tonalRamp": [
+          "oklch(15% 0.00979 125.68)",
+          "oklch(26% 0.00979 125.68)",
+          "oklch(38% 0.00979 125.68)",
+          "oklch(49% 0.00979 125.68)",
+          "oklch(61% 0.00979 125.68)",
+          "oklch(72% 0.00979 125.68)",
+          "oklch(84% 0.00979 125.68)",
+          "oklch(95% 0.00979 125.68)"
+        ]
+      },
+      "admin-focus": {
+        "role": "primary",
+        "displayName": "Admin Focus",
+        "tonalRamp": [
+          "oklch(15% 0.09550 134.36)",
+          "oklch(26% 0.09550 134.36)",
+          "oklch(38% 0.09550 134.36)",
+          "oklch(49% 0.09550 134.36)",
+          "oklch(61% 0.09550 134.36)",
+          "oklch(72% 0.09550 134.36)",
+          "oklch(84% 0.09550 134.36)",
+          "oklch(95% 0.09550 134.36)"
+        ]
+      },
+      "admin-danger": {
+        "role": "secondary",
+        "displayName": "Admin Danger",
+        "tonalRamp": [
+          "oklch(15% 0.14259 25.99)",
+          "oklch(26% 0.14259 25.99)",
+          "oklch(38% 0.14259 25.99)",
+          "oklch(49% 0.14259 25.99)",
+          "oklch(61% 0.14259 25.99)",
+          "oklch(72% 0.14259 25.99)",
+          "oklch(84% 0.14259 25.99)",
+          "oklch(95% 0.14259 25.99)"
+        ]
+      },
+      "admin-danger-hover": {
+        "role": "secondary",
+        "displayName": "Admin Danger Hover",
+        "tonalRamp": [
+          "oklch(15% 0.12536 25.90)",
+          "oklch(26% 0.12536 25.90)",
+          "oklch(38% 0.12536 25.90)",
+          "oklch(49% 0.12536 25.90)",
+          "oklch(61% 0.12536 25.90)",
+          "oklch(72% 0.12536 25.90)",
+          "oklch(84% 0.12536 25.90)",
+          "oklch(95% 0.12536 25.90)"
+        ]
+      },
+      "admin-inactive": {
+        "role": "neutral",
+        "displayName": "Admin Inactive",
+        "tonalRamp": [
+          "oklch(15% 0.00540 117.92)",
+          "oklch(26% 0.00540 117.92)",
+          "oklch(38% 0.00540 117.92)",
+          "oklch(49% 0.00540 117.92)",
+          "oklch(61% 0.00540 117.92)",
+          "oklch(72% 0.00540 117.92)",
+          "oklch(84% 0.00540 117.92)",
+          "oklch(95% 0.00540 117.92)"
+        ]
+      },
+      "admin-cancelled": {
+        "role": "neutral",
+        "displayName": "Admin Cancelled",
+        "tonalRamp": [
+          "oklch(15% 0.00411 121.56)",
+          "oklch(26% 0.00411 121.56)",
+          "oklch(38% 0.00411 121.56)",
+          "oklch(49% 0.00411 121.56)",
+          "oklch(61% 0.00411 121.56)",
+          "oklch(72% 0.00411 121.56)",
+          "oklch(84% 0.00411 121.56)",
+          "oklch(95% 0.00411 121.56)"
+        ]
+      },
+      "admin-absence": {
+        "role": "secondary",
+        "displayName": "Admin Absence",
+        "tonalRamp": [
+          "oklch(15% 0.03520 85.41)",
+          "oklch(26% 0.03520 85.41)",
+          "oklch(38% 0.03520 85.41)",
+          "oklch(49% 0.03520 85.41)",
+          "oklch(61% 0.03520 85.41)",
+          "oklch(72% 0.03520 85.41)",
+          "oklch(84% 0.03520 85.41)",
+          "oklch(95% 0.03520 85.41)"
+        ]
+      },
+      "admin-absence-ink": {
+        "role": "secondary",
+        "displayName": "Admin Absence Ink",
+        "tonalRamp": [
+          "oklch(15% 0.08388 79.41)",
+          "oklch(26% 0.08388 79.41)",
+          "oklch(38% 0.08388 79.41)",
+          "oklch(49% 0.08388 79.41)",
+          "oklch(61% 0.08388 79.41)",
+          "oklch(72% 0.08388 79.41)",
+          "oklch(84% 0.08388 79.41)",
+          "oklch(95% 0.08388 79.41)"
+        ]
+      },
+      "landing-paper": {
+        "role": "neutral",
+        "displayName": "Landing Paper",
+        "tonalRamp": [
+          "oklch(15% 0.00671 97.35)",
+          "oklch(26% 0.00671 97.35)",
+          "oklch(38% 0.00671 97.35)",
+          "oklch(49% 0.00671 97.35)",
+          "oklch(61% 0.00671 97.35)",
+          "oklch(72% 0.00671 97.35)",
+          "oklch(84% 0.00671 97.35)",
+          "oklch(95% 0.00671 97.35)"
+        ]
+      },
+      "landing-ink": {
+        "role": "neutral",
+        "displayName": "Landing Ink",
+        "tonalRamp": [
+          "oklch(15% 0.02219 142.29)",
+          "oklch(26% 0.02219 142.29)",
+          "oklch(38% 0.02219 142.29)",
+          "oklch(49% 0.02219 142.29)",
+          "oklch(61% 0.02219 142.29)",
+          "oklch(72% 0.02219 142.29)",
+          "oklch(84% 0.02219 142.29)",
+          "oklch(95% 0.02219 142.29)"
+        ]
+      },
+      "landing-muted": {
+        "role": "neutral",
+        "displayName": "Landing Muted",
+        "tonalRamp": [
+          "oklch(15% 0.02345 131.65)",
+          "oklch(26% 0.02345 131.65)",
+          "oklch(38% 0.02345 131.65)",
+          "oklch(49% 0.02345 131.65)",
+          "oklch(61% 0.02345 131.65)",
+          "oklch(72% 0.02345 131.65)",
+          "oklch(84% 0.02345 131.65)",
+          "oklch(95% 0.02345 131.65)"
+        ]
+      },
+      "landing-line": {
+        "role": "neutral",
+        "displayName": "Landing Line",
+        "tonalRamp": [
+          "oklch(15% 0.01492 115.06)",
+          "oklch(26% 0.01492 115.06)",
+          "oklch(38% 0.01492 115.06)",
+          "oklch(49% 0.01492 115.06)",
+          "oklch(61% 0.01492 115.06)",
+          "oklch(72% 0.01492 115.06)",
+          "oklch(84% 0.01492 115.06)",
+          "oklch(95% 0.01492 115.06)"
+        ]
+      },
+      "landing-green": {
+        "role": "primary",
+        "displayName": "Landing Green",
+        "tonalRamp": [
+          "oklch(15% 0.10822 119.62)",
+          "oklch(26% 0.10822 119.62)",
+          "oklch(38% 0.10822 119.62)",
+          "oklch(49% 0.10822 119.62)",
+          "oklch(61% 0.10822 119.62)",
+          "oklch(72% 0.10822 119.62)",
+          "oklch(84% 0.10822 119.62)",
+          "oklch(95% 0.10822 119.62)"
+        ]
+      },
+      "landing-dark": {
+        "role": "primary",
+        "displayName": "Landing Dark",
+        "tonalRamp": [
+          "oklch(15% 0.03999 139.45)",
+          "oklch(26% 0.03999 139.45)",
+          "oklch(38% 0.03999 139.45)",
+          "oklch(49% 0.03999 139.45)",
+          "oklch(61% 0.03999 139.45)",
+          "oklch(72% 0.03999 139.45)",
+          "oklch(84% 0.03999 139.45)",
+          "oklch(95% 0.03999 139.45)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "admin-headline": {
+        "displayName": "Admin Headline",
+        "purpose": "Administrative typography extracted from admin.css."
+      },
+      "admin-title": {
+        "displayName": "Admin Title",
+        "purpose": "Administrative typography extracted from admin.css."
+      },
+      "admin-body": {
+        "displayName": "Admin Body",
+        "purpose": "Administrative typography extracted from admin.css."
+      },
+      "admin-field": {
+        "displayName": "Admin Field",
+        "purpose": "Administrative typography extracted from admin.css."
+      },
+      "admin-label": {
+        "displayName": "Admin Label",
+        "purpose": "Administrative typography extracted from admin.css."
+      },
+      "admin-status": {
+        "displayName": "Admin Status",
+        "purpose": "Administrative typography extracted from admin.css."
+      },
+      "landing-display": {
+        "displayName": "Landing Display",
+        "purpose": "Preserved landing role."
+      },
+      "landing-body": {
+        "displayName": "Landing Body",
+        "purpose": "Preserved landing role."
+      },
+      "landing-brand": {
+        "displayName": "Landing Brand",
+        "purpose": "Preserved landing role."
+      }
+    },
+    "shadows": [
+      {
+        "name": "landing-preview",
+        "value": "0 24px 60px #3344220d",
+        "purpose": "Public demo illustration only."
+      },
+      {
+        "name": "landing-chat",
+        "value": "0 2px 3px #00000003",
+        "purpose": "Public demo chat bubbles only."
+      }
+    ],
+    "motion": [
+      {
+        "name": "admin-action-transition",
+        "value": "background-color 160ms ease-out, border-color 160ms ease-out",
+        "purpose": "Action-state feedback; disabled for reduced motion."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "admin-compact",
+        "value": "1200px"
+      },
+      {
+        "name": "admin-agenda",
+        "value": "900px"
+      },
+      {
+        "name": "admin-small",
+        "value": "600px"
+      },
+      {
+        "name": "landing-compact",
+        "value": "900px"
+      },
+      {
+        "name": "landing-stacked",
+        "value": "640px"
+      }
+    ],
+    "focus": [
+      {
+        "name": "admin-keyboard",
+        "value": "outline: 2px solid #54783d; outline-offset: 3px;",
+        "purpose": "Visible focus for interactive administrative controls."
+      }
+    ],
+    "tonalRampNote": "Synthesized OKLCH strips are preview metadata; only frontmatter values are implementation primitives.",
+    "evidence": {
+      "sources": [
+        "static/booking/admin.css",
+        "templates/admin/base_site.html",
+        "templates/admin/axon_index.html",
+        "templates/admin/axon_visit.html",
+        "templates/admin/booking/appointment/cancel.html",
+        "static/booking/site.css",
+        "templates/booking/home.html"
+      ],
+      "scope": "Admin implementation documented after scoped review; existing landing preserved.",
+      "visualCoverageLimitation": "Populated appointments and cancellation confirmation were not visually captured in the recorded QA set."
+    }
+  },
+  "components": [
+    {
+      "name": "Admin primary button",
+      "kind": "button",
+      "refersTo": "admin-button-primary",
+      "description": "Compact administrative action.",
+      "html": "<button class=\"ds-button-primary\">Показать</button>",
+      "css": ".ds-button-primary{display:inline-flex;justify-content:center;align-items:center;min-height:38px;gap:8px;padding:8px 15px;border:1px solid var(--primary,#36533b);border-radius:7px;font-family:var(--font-family-primary,-apple-system,BlinkMacSystemFont,\"Segoe UI\",sans-serif);font-size:12px;font-weight:600;text-decoration:none;cursor:pointer;transition:background-color 160ms ease-out,border-color 160ms ease-out;background:var(--primary,#36533b);color:var(--primary-fg,#ffffff);}.ds-button-primary:hover{background:var(--button-hover-bg,#29432e);}.ds-button-primary:focus-visible{outline:2px solid #54783d;outline-offset:3px;}@media(prefers-reduced-motion:reduce){.ds-button-primary{transition:none;}}"
+    },
+    {
+      "name": "Admin secondary button",
+      "kind": "button",
+      "refersTo": "admin-button-secondary",
+      "description": "Compact administrative action.",
+      "html": "<button class=\"ds-button-secondary\">Все записи</button>",
+      "css": ".ds-button-secondary{display:inline-flex;justify-content:center;align-items:center;min-height:38px;gap:8px;padding:8px 15px;border:1px solid var(--primary,#36533b);border-radius:7px;font-family:var(--font-family-primary,-apple-system,BlinkMacSystemFont,\"Segoe UI\",sans-serif);font-size:12px;font-weight:600;text-decoration:none;cursor:pointer;transition:background-color 160ms ease-out,border-color 160ms ease-out;background:var(--axon-surface,#ffffff);border-color:var(--border-color,#d9e0d5);color:var(--primary,#36533b);}.ds-button-secondary:hover{background:var(--selected-bg,#edf2e8);}.ds-button-secondary:focus-visible{outline:2px solid #54783d;outline-offset:3px;}@media(prefers-reduced-motion:reduce){.ds-button-secondary{transition:none;}}"
+    },
+    {
+      "name": "Admin quiet button",
+      "kind": "button",
+      "refersTo": "admin-button-quiet",
+      "description": "Compact administrative action.",
+      "html": "<button class=\"ds-button-quiet\">Текущая неделя</button>",
+      "css": ".ds-button-quiet{display:inline-flex;justify-content:center;align-items:center;min-height:38px;gap:8px;padding:8px 15px;border:1px solid var(--primary,#36533b);border-radius:7px;font-family:var(--font-family-primary,-apple-system,BlinkMacSystemFont,\"Segoe UI\",sans-serif);font-size:12px;font-weight:600;text-decoration:none;cursor:pointer;transition:background-color 160ms ease-out,border-color 160ms ease-out;background:transparent;color:var(--primary,#36533b);border-color:transparent;font-weight:500;}.ds-button-quiet:hover{background:var(--axon-accent-soft,#e8efdf);}.ds-button-quiet:focus-visible{outline:2px solid #54783d;outline-offset:3px;}@media(prefers-reduced-motion:reduce){.ds-button-quiet{transition:none;}}"
+    },
+    {
+      "name": "Admin danger button",
+      "kind": "button",
+      "refersTo": "admin-button-danger",
+      "description": "Native administrative action variant; cancellation is used after confirmation.",
+      "html": "<button class=\"ds-button-danger\">Отменить запись</button>",
+      "css": ".ds-button-danger{display:inline-flex;justify-content:center;align-items:center;min-height:38px;gap:8px;padding:8px 15px;border:1px solid var(--primary,#36533b);border-radius:7px;font-family:var(--font-family-primary,-apple-system,BlinkMacSystemFont,\"Segoe UI\",sans-serif);font-size:12px;font-weight:600;text-decoration:none;cursor:pointer;transition:background-color 160ms ease-out,border-color 160ms ease-out;background:var(--delete-button-bg,#a13632);border-color:var(--delete-button-bg,#a13632);color:var(--button-fg,#ffffff);}.ds-button-danger:hover{background:var(--delete-button-hover-bg,#852a27);}.ds-button-danger:focus-visible{outline:2px solid #54783d;outline-offset:3px;}@media(prefers-reduced-motion:reduce){.ds-button-danger{transition:none;}}"
+    },
+    {
+      "name": "Admin text field",
+      "kind": "input",
+      "refersTo": "admin-field",
+      "description": "Native labelled field with neutral border and visible keyboard focus.",
+      "html": "<label class=\"ds-field-label\" for=\"ds-service\">Название услуги</label><input class=\"ds-field\" id=\"ds-service\" placeholder=\"Название\">",
+      "css": ".ds-field-label{display:block;margin-bottom:8px;color:var(--body-medium-color,#526157);font-family:var(--font-family-primary,sans-serif);font-size:13px;font-weight:500;}.ds-field{padding:9px 11px;min-height:38px;max-width:100%;border:1px solid #cbd5c5;border-radius:6px;background:var(--axon-surface,#ffffff);color:var(--body-fg,#26332a);font-family:var(--font-family-primary,sans-serif);font-size:13px;caret-color:var(--primary,#36533b);}.ds-field:focus-visible{outline:2px solid #54783d;outline-offset:3px;}"
+    },
+    {
+      "name": "Admin navigation",
+      "kind": "nav",
+      "refersTo": "admin-navigation",
+      "description": "Labelled SVG navigation with pale green current-page state.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"Рабочие разделы\"><a href=\"#\" aria-current=\"page\" class=\"ds-nav-current\"><svg width=\"19\" height=\"19\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><rect x=\"3\" y=\"5\" width=\"18\" height=\"16\" rx=\"3\"/><path d=\"M7 3v4m10-4v4M3 11h18M7 15h2m6 0h2M7 18h2\"/></svg>Расписание</a><a href=\"#\">Услуги</a></nav>",
+      "css": ".ds-nav{display:flex;flex-direction:column;gap:5px;font-family:var(--font-family-primary,sans-serif);}.ds-nav a{display:flex;align-items:center;gap:12px;padding:11px 13px;border-radius:8px;font-size:13px;color:var(--body-medium-color,#526157);text-decoration:none;}.ds-nav a:hover{background:#e7ede1;color:var(--body-fg,#26332a);}.ds-nav a.ds-nav-current{background:#dfe9d5;color:#2c492f;font-weight:600;}.ds-nav a:focus-visible{outline:2px solid #54783d;outline-offset:3px;}"
+    },
+    {
+      "name": "Admin status badge",
+      "kind": "chip",
+      "refersTo": "admin-status",
+      "description": "Noninteractive state label; do not turn it into a filter chip.",
+      "html": "<span class=\"ds-status\">Активен</span><span class=\"ds-status ds-status-inactive\">Неактивен</span>",
+      "css": ".ds-status{display:inline-flex;align-items:center;border-radius:5px;padding:3px 8px;font-family:var(--font-family-primary,sans-serif);font-size:11px;font-weight:500;background:var(--axon-accent-soft,#e8efdf);color:var(--primary,#36533b);white-space:nowrap;}.ds-status-inactive{background:#f0f1ed;color:var(--axon-muted,#647164);}"
+    },
+    {
+      "name": "Admin working panel",
+      "kind": "card",
+      "refersTo": "admin-panel",
+      "description": "Flat white working surface, represented by the calendar toolbar.",
+      "html": "<section class=\"ds-panel\" aria-label=\"Управление календарём\"><h2 class=\"ds-panel-title\">Управление календарём</h2></section>",
+      "css": ".ds-panel{padding:20px;background:var(--axon-surface,#ffffff);border:1px solid var(--border-color,#d9e0d5);border-radius:var(--axon-radius,12px);font-family:var(--font-family-primary,sans-serif);}.ds-panel-title{font-size:16px;font-weight:600;color:var(--body-fg,#26332a);margin:0;}"
+    },
+    {
+      "name": "Admin calendar visit",
+      "kind": "custom",
+      "refersTo": "admin-visit",
+      "description": "Source-derived visit block. Placeholder content in this preview is not a real appointment.",
+      "html": "<a href=\"#\" class=\"ds-visit\"><span class=\"ds-visit-time\">Время визита</span><strong>Имя клиента</strong><span>Название услуги</span></a>",
+      "css": ".ds-visit{display:flex;flex-direction:column;gap:4px;background:var(--axon-accent-soft,#e8efdf);color:var(--primary,#36533b);border-radius:7px;margin-top:10px;padding:9px 8px;overflow-wrap:anywhere;font-family:var(--font-family-primary,sans-serif);text-decoration:none;}.ds-visit:hover{background:#dce8cf;color:var(--link-hover-color,#243e29);}.ds-visit strong{font-size:11px;line-height:1.4;}.ds-visit>span{font-size:10px;line-height:1.4;}.ds-visit-time{font-variant-numeric:tabular-nums;font-weight:600;}.ds-visit:focus-visible{outline:2px solid #54783d;outline-offset:3px;}"
+    }
+  ],
+  "narrative": {
+    "northStar": "Axon · рабочее расписание",
+    "overview": "Axon Admin is a restrained, light working environment: pale green selection, white forms and tables, dark green actions, and quiet neutral framing. The confirmed direction is clear and intuitive rather than ornamental. The system extends Django Admin and keeps its functional forms and permission-aware navigation.\n\nThis document records the shipped source. Tokens prefixed `admin-` apply to `static/booking/admin.css` and `templates/admin/`; they are not universal replacements for the public demo. The existing landing page in `static/booking/site.css` and `templates/booking/home.html` retains its own warmer paper, lime accent, Manrope typography, DM Sans wordmark, and illustrative chat treatment. Landing tokens are explicitly prefixed `landing-`.",
+    "keyCharacteristics": [
+      "Light neutral background with white working surfaces.",
+      "Dark green actions and pale green selection.",
+      "Compact, readable administration with explicit labels and visible focus.",
+      "Separate, preserved visual treatment for the public demo."
+    ],
+    "rules": [
+      {
+        "name": "Scoped Palettes",
+        "body": "Use admin tokens on administrative screens and landing tokens on the public demo; shared green character does not make the two palettes interchangeable.",
+        "section": "colors"
+      },
+      {
+        "name": "Color with Meaning",
+        "body": "Reserve red for errors and destructive confirmation; show status in words as well as color.",
+        "section": "colors"
+      },
+      {
+        "name": "Flat Working Surfaces",
+        "body": "Admin surfaces use borders and tonal changes to establish hierarchy, without decorative shadows.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do use white working surfaces and pale green selection within the admin palette.",
+      "Do pair status color with readable text and retain visible keyboard focus.",
+      "Do let the admin header, filters, and actions wrap on narrow screens.",
+      "Do preserve the public demo’s separate typography, palette, and existing illustration."
+    ],
+    "donts": [
+      "Don’t apply admin tokens globally to the public landing page.",
+      "Don’t replace real schedule information with decorative analytics or invented activity.",
+      "Don’t remove field labels, confirmation context, permission checks, or native form behavior for visual simplicity.",
+      "Don’t introduce decorative motion into administration."
+    ]
+  }
+}

@@ -1,0 +1,1 @@
+<a href="/" target="_blank" rel="noopener">Открыть демо</a><a href="{% url 'admin:password_change' %}">Пароль</a><form id="logout-form" method="post" action="{% url 'admin:logout' %}">{% csrf_token %}<button type="submit">Выйти</button></form>

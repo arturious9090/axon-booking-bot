@@ -1,0 +1,4 @@
+{% extends "admin/change_form.html" %}
+{% block object-tools %}
+<div class="appointment-actions"><a class="axon-button secondary" href="{% url 'admin:index' %}?week={{ original.starts_at|date:'Y-m-d' }}">Показать в календаре</a>{% if can_cancel_appointment %}<a class="axon-button secondary" href="{% url 'admin:booking_appointment_cancel' original.pk %}">Отменить запись</a>{% endif %}</div>
+{% endblock %}

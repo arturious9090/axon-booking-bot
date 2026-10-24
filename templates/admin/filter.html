@@ -1,0 +1,6 @@
+<details class="axon-filter-group" data-filter-title="{{ title }}" open>
+  <summary><span>{{ title|capfirst }}</span>{% include 'admin/axon_icon.html' with name='right' %}</summary>
+  <ul>
+    {% for choice in choices %}<li{% if choice.selected %} class="selected"{% endif %}><a href="{{ choice.query_string|iriencode }}"{% if choice.selected %} aria-current="true"{% endif %}>{{ choice.display }}</a></li>{% endfor %}
+  </ul>
+</details>

@@ -1,0 +1,20 @@
+{% extends "admin/base.html" %}
+{% load static %}
+{% block title %}{{ title }} | Axon{% endblock %}
+{% block dark-mode-vars %}{% endblock %}
+{% block responsive %}{{ block.super }}<link rel="stylesheet" href="{% static 'booking/admin.css' %}">{% endblock %}
+{% block branding %}<div id="site-name"><a href="{% url 'admin:index' %}" class="axon-brand">axon<span> / управление</span></a></div>{% endblock %}
+{% block welcome-msg %}<span class="axon-account">{{ user.get_short_name|default:user.get_username }}</span>{% endblock %}
+{% block userlinks %}{% include 'admin/axon_account_links.html' %}{% endblock %}
+{% block nav-sidebar %}
+{% if has_permission %}
+<aside class="axon-sidebar" aria-label="Навигация панели">
+  <div class="axon-workspace"><span class="workspace-monogram" aria-hidden="true">a</span><div><strong>{{ axon_company }}</strong><span>Панель администратора</span></div></div>
+  <nav class="axon-nav" aria-label="Рабочие разделы">
+    {% for item in axon_navigation %}<a href="{{ item.url }}"{% if item.active %} class="active" aria-current="page"{% endif %}>{% include 'admin/axon_icon.html' with name=item.icon %}<span>{{ item.label }}</span></a>{% endfor %}
+  </nav>
+  {% if axon_access_navigation %}<nav class="axon-system axon-nav" aria-label="Управление доступом">{% for item in axon_access_navigation %}<a href="{{ item.url }}"{% if item.active %} class="active" aria-current="page"{% endif %}>{% include 'admin/axon_icon.html' with name=item.icon %}<span>{{ item.label }}</span></a>{% endfor %}</nav>{% endif %}
+</aside>
+{% endif %}
+{% endblock %}
+{% block footer %}{% endblock %}

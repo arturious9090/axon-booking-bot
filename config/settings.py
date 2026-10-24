@@ -16,7 +16,7 @@ CSRF_TRUSTED_ORIGINS = [
     value for value in os.getenv("DJANGO_CSRF_TRUSTED_ORIGINS", "").split(",") if value
 ]
 INSTALLED_APPS = [
-    "django.contrib.admin",
+    "config.apps.AxonAdminConfig",
     "django.contrib.auth",
     "django.contrib.contenttypes",
     "django.contrib.sessions",
@@ -72,7 +72,7 @@ AUTH_PASSWORD_VALIDATORS = [
 LANGUAGE_CODE = "ru"
 TIME_ZONE = os.getenv("STUDIO_TIME_ZONE", "Europe/Berlin")
 STUDIO_TZ = ZoneInfo(TIME_ZONE)
-STUDIO_NAME = os.getenv("STUDIO_NAME", "Axon Studio")
+STUDIO_NAME = os.getenv("STUDIO_NAME", "Демо Axon")
 USE_I18N = True
 USE_TZ = True
 STATIC_URL = "static/"

@@ -10,3 +10,4 @@ htmlcov/
 staticfiles/
 *.log
 .DS_Store
+.impeccable/review/

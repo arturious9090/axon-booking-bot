@@ -1,0 +1,6 @@
+{
+  "files": ["templates/booking/home.html"],
+  "insertBefore": "</body>",
+  "commentSyntax": "html",
+  "cspChecked": true
+}

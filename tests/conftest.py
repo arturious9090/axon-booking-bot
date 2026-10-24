@@ -17,7 +17,7 @@ def studio_settings(settings, monkeypatch):
 
 @pytest.fixture
 def catalog(db):
-    service = Service.objects.create(name="Стрижка", duration_minutes=60, price=Decimal("45"))
+    service = Service.objects.create(name="Консультация", duration_minutes=60, price=Decimal("45"))
     specialist = Specialist.objects.create(name="Анна")
     specialist.services.add(service)
     for day in range(7):

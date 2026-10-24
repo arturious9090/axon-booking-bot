@@ -16,7 +16,7 @@ def test_home_and_health(client, catalog):
     ):
         response = client.get("/")
     assert response.status_code == 200
-    assert "Стрижка" in response.content.decode()
+    assert "Консультация" in response.content.decode()
     assert "демо" in response.content.decode().lower()
     assert client.get("/health/").json() == {"status": "ok"}
     assert client.get("/admin/").status_code == 302
